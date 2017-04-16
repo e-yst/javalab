@@ -17,15 +17,7 @@ public class ID {
         else
             gender = "女性";
 
-        Integer genderNum = Integer.parseInt(String.valueOf(idInNum.charAt(1)));
-
-        if (idTxt.length() != 10) {
-            System.out.println("格式不符");
-            return;
-        } else if (!Character.isLetter(idTxt.charAt(0))) {
-            System.out.println("格式不符");
-            return;
-        } else if (genderNum != 1 && genderNum != 2) {
+        if (!idTxt.matches("[A-Z][1-2]\\d{8}")) {
             System.out.println("格式不符");
             return;
         }
