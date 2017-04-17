@@ -12,15 +12,16 @@ public class ID {
     }
 
     public void validate() {
-        if (String.valueOf(idInNum.charAt(2)).equals("1"))
-            gender = "男性";
-        else
-            gender = "女性";
 
         if (!idTxt.matches("[A-Z][1-2]\\d{8}")) {
             System.out.println("格式不符");
             return;
         }
+
+        if (String.valueOf(idInNum.charAt(2)).equals("1"))
+            gender = "男性";
+        else
+            gender = "女性";
 
         Integer sum = 0;
         sum += Integer.parseInt(String.valueOf(idInNum.charAt(0)));
