@@ -57,7 +57,6 @@ public class TicTacToe {
             if ((board[i][0] == board[i][1] && board[i][0] == board[i][2]) &&
                     (board[i][0] != ' ' && board[i][1] != ' ' && board[i][2] != ' ')) {
                 winner = board[i][0];
-                System.out.println("[DEBUG] checkRow = true");
                 return true;
             }
         }
@@ -69,7 +68,6 @@ public class TicTacToe {
             if ((board[0][i] == board[1][i] && board[0][i] == board[2][i]) &&
                     (board[0][i] != ' ' && board[1][i] != ' ' && board[2][i] != ' ')) {
                 winner = board[0][i];
-                System.out.println("[DEBUG] checkCol = true");
                 return true;
             }
         }
@@ -80,12 +78,10 @@ public class TicTacToe {
         if ((board[0][0] == board[1][1] && board[0][0] == board[2][2]) &&
                 (board[0][0] != ' ' && board[1][1] != ' ' && board[2][2] != ' ')) {
             winner = board[1][1];
-            System.out.println("[DEBUG] checkDiagonals = true");
             return true;
         } else if ((board[0][2] == board[1][1] && board[0][2] == board[2][0]) &&
                 (board[0][2] != ' ' && board[1][1] != ' ' && board[2][0] != ' ')) {
             winner = board[1][1];
-            System.out.println("[DEBUG] checkDiagonals = true");
             return true;
         }
         return false;
@@ -108,6 +104,7 @@ public class TicTacToe {
             locRow = Integer.parseInt(txt.split(",")[0]) - 1;
             locCol = Integer.parseInt(txt.split(",")[1]) - 1;
         } else {
+            System.out.println("The value you entered is invalid! Please try again.");
             return false;
         }
 
@@ -115,6 +112,7 @@ public class TicTacToe {
         if (locIsValid(locRow, locCol))
             return true;
 
+        System.out.println("The value you entered is invalid! Please try again.");
         return false;
     }
 
