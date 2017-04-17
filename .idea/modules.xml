@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/HW2-Account/HW2-Account.iml" filepath="$PROJECT_DIR$/HW2-Account/HW2-Account.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW2B-Timetool/HW2B-Timetool.iml" filepath="$PROJECT_DIR$/HW2B-Timetool/HW2B-Timetool.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW3-Guess/HW3-Guess.iml" filepath="$PROJECT_DIR$/HW3-Guess/HW3-Guess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW4-TicTacToe/HW4-TicTacToe.iml" filepath="$PROJECT_DIR$/HW4-TicTacToe/HW4-TicTacToe.iml" />
       <module fileurl="file://$PROJECT_DIR$/HW5-IDChecker/HW5-IDChecker.iml" filepath="$PROJECT_DIR$/HW5-IDChecker/HW5-IDChecker.iml" />
     </modules>
   </component>
