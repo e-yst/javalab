@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by Eason Tse on 17/4/2017.
  */
-public class IDChecker {
+public class IDGenerator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String keyInOption, keyInId, keyInDist, keyInGender;
