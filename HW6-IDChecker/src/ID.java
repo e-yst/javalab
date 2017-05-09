@@ -1,10 +1,13 @@
+import java.io.*;
+import java.util.ArrayList;
+
 /**
  * Created by Eason Tse on 21/4/2017.
  */
 
 public class ID {
-    private String idInNum;
-    private String idTxt, gender, dist;
+    private String idInNum, idTxt, gender, dist;
+
     public distInfo[] distList = {
             new distInfo("A", "台北市", "10"),
             new distInfo("B", "臺中市", "11"),
@@ -39,17 +42,19 @@ public class ID {
         idInNum = idToAllNum(idTxt);
     }
 
-    public String validate() {
+    public String validate(String txt) {
 
-        if (!idTxt.matches("[A-Z][1-2]\\d{8}"))
+        if (!txt.matches("[A-Z][1-2]\\d{8}"))
             return "格式不符";
 
-        if (String.valueOf(idInNum.charAt(2)).equals("1"))
+        String toNum = idToAllNum(txt);
+
+        if (String.valueOf(toNum.charAt(2)).equals("1"))
             gender = "男性";
         else
             gender = "女性";
 
-        if (isValidNum(idInNum))
+        if (isValidNum(toNum))
             return dist + " " + gender;
 
         return "身份證字號錯誤";
@@ -97,5 +102,45 @@ public class ID {
                 return d.num;
             }
         return null;
+    }
+
+    public String[] readFile(String fileName) {
+        ArrayList<String> data = new ArrayList<String>();
+        try {
+//            File file = new File(fileName);
+            FileReader fr = new FileReader(fileName);
+            BufferedReader br = new BufferedReader(fr);
+            String line;
+
+            while ((line = br.readLine()) != null) {
+                data.add(line);
+            }
+
+            br.close();
+            fr.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return data.toArray(new String[0]);
+    }
+
+    public void writeFile(String fileName, ArrayList<String> data) {
+        try {
+            File file = new File(fileName);
+            file.createNewFile();
+            FileWriter fw = new FileWriter(file);
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            for (String i: data) {
+                bw.write(i);
+                bw.newLine();
+            }
+
+            bw.close();
+            fw.close();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
