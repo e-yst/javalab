@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class BookStore {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String keyInOption, keyInName, keyInPhone;
+        String keyInOption, userName, userPhone;
         Integer userSelection, userQuantity;
-        ArrayList<>
+        BookOrder orders = new BookOrder();
 
 
         printMenu();
@@ -17,18 +17,29 @@ public class BookStore {
             userSelection = getBookSelection();
             userQuantity = getBookQuantity();
 
+            orders.setOrderQty(userSelection,
+                    orders.getOrderQty(userSelection) + userQuantity);
+
             do {
                 System.out.print("繼續訂購嗎 (Y/N): ");
                 keyInOption = input.nextLine().toUpperCase();
             } while (!keyInOption.matches("[YN]"));
 
+
         } while (keyInOption.equals("Y"));
+
+        userName = getName();
+        userPhone = getPhone();
+        orders.setCustomerName(userName);
+        orders.setPhoneNum(userPhone);
+
+        orders.printOrder();
     }
 
     public static void printMenu() {
         System.out.println("********** Welcome to Book Store **********");
         for (Book book : Book.values()) {
-            System.out.printf("%d) %s\t\t%.2f元\n",
+            System.out.printf("%d) %s\t\t%.2f 元\n",
                     book.getId(), book.getName(), book.getPrice());
         }
         System.out.println();
@@ -78,5 +89,32 @@ public class BookStore {
         } while (!keyInQuantity.matches("\\d+"));
 
         return userQuantity;
+    }
+
+    public static String getName() {
+        Scanner input = new Scanner(System.in);
+        String keyInName = "";
+
+        do {
+            System.out.print("請輸入您的姓名: ");
+            keyInName = input.nextLine();
+            if (!keyInName.matches("[^ ][^0-9!-\\/:-@\\[-`{-~]+$"))
+                System.out.println("請輸入正確姓名!");
+        } while (!keyInName.matches("[^ ][^0-9!-\\/:-@\\[-`{-~]+$"));
+
+        return keyInName;
+    }
+
+    public static String getPhone() {
+        Scanner input = new Scanner(System.in);
+        String keyInPhone = "";
+
+        do {
+            System.out.print("請輸入聯絡電話: ");
+            keyInPhone = input.nextLine();
+            if (!keyInPhone.matches("[0-9]{4}-[0-9]{6}"))
+                System.out.println("電話格式有誤! (格式: 0000-000000)");
+        } while (!keyInPhone.matches("[0-9]{4}-[0-9]{6}"));
+        return keyInPhone;
     }
 }
