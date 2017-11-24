@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/03_TryClickMe/03_TryClickMe.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/03_TryClickMe/03_TryClickMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/04_TryTextfieldInput/04_TryTextfieldInput.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/04_TryTextfieldInput/04_TryTextfieldInput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/05_JTextArea/05_JTextArea.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/05_JTextArea/05_JTextArea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/06_BorderLayout/06_BorderLayout.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/06_BorderLayout/06_BorderLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/07_FlowLayout/07_FlowLayout.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/07_FlowLayout/07_FlowLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/08_GridBagLayout/08_GridBagLayout.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/08_GridBagLayout/08_GridBagLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvJavaFrameTest/AdvJavaFrameTest.iml" filepath="$PROJECT_DIR$/AdvJavaFrameTest/AdvJavaFrameTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvJavaHw1Operator/AdvJavaHw1Operator.iml" filepath="$PROJECT_DIR$/AdvJavaHw1Operator/AdvJavaHw1Operator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvJavaHw2DoubleLinkedList/AdvJavaHw2DoubleLinkedList.iml" filepath="$PROJECT_DIR$/AdvJavaHw2DoubleLinkedList/AdvJavaHw2DoubleLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvJavaMT1/AdvJavaMT1.iml" filepath="$PROJECT_DIR$/AdvJavaMT1/AdvJavaMT1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdvJavaMT2/AdvJavaMT2.iml" filepath="$PROJECT_DIR$/AdvJavaMT2/AdvJavaMT2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/Chattimus/Chattimus.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/Chattimus/Chattimus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW1-Student/HW1-Student.iml" filepath="$PROJECT_DIR$/HW1-Student/HW1-Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW1B-Caesar/HW1B-Caesar.iml" filepath="$PROJECT_DIR$/HW1B-Caesar/HW1B-Caesar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW2-Account/HW2-Account.iml" filepath="$PROJECT_DIR$/HW2-Account/HW2-Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW2B-Timetool/HW2B-Timetool.iml" filepath="$PROJECT_DIR$/HW2B-Timetool/HW2B-Timetool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW3-Guess/HW3-Guess.iml" filepath="$PROJECT_DIR$/HW3-Guess/HW3-Guess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW4-TicTacToe/HW4-TicTacToe.iml" filepath="$PROJECT_DIR$/HW4-TicTacToe/HW4-TicTacToe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW5-IDChecker/HW5-IDChecker.iml" filepath="$PROJECT_DIR$/HW5-IDChecker/HW5-IDChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW5B-IDGenerator/HW5B-IDGenerator.iml" filepath="$PROJECT_DIR$/HW5B-IDGenerator/HW5B-IDGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW6-IDChecker/HW6-IDChecker.iml" filepath="$PROJECT_DIR$/HW6-IDChecker/HW6-IDChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW7-TimeLength/HW7-TimeLength.iml" filepath="$PROJECT_DIR$/HW7-TimeLength/HW7-TimeLength.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW7B-Book/HW7B-Book.iml" filepath="$PROJECT_DIR$/HW7B-Book/HW7B-Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW8-Delivery/HW8-Delivery.iml" filepath="$PROJECT_DIR$/HW8-Delivery/HW8-Delivery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW9-AlarmClock/HW9-AlarmClock.iml" filepath="$PROJECT_DIR$/HW9-AlarmClock/HW9-AlarmClock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/YT-GuiBuilding.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/YT-GuiBuilding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/YT-simpleGuiTest.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/YT-simpleGuiTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/Chattimus/client/client.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/Chattimus/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab01/lab01.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab01/lab01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab02/lab02.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab02/lab02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab03/lab03.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab03/lab03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab04CbBox/lab04CbBox.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab04CbBox/lab04CbBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab05MenuBar/lab05MenuBar.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab05MenuBar/lab05MenuBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab06WritingFiles/lab06WritingFiles.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab06WritingFiles/lab06WritingFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab07ReadingFiles/lab07ReadingFiles.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab07ReadingFiles/lab07ReadingFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab08OpenFrameFromJMenu/lab08OpenFrameFromJMenu.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab08OpenFrameFromJMenu/lab08OpenFrameFromJMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-simpleGuiTest/lab09JToolBar/lab09JToolBar.iml" filepath="$PROJECT_DIR$/YT-simpleGuiTest/lab09JToolBar/lab09JToolBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/playground/playground.iml" filepath="$PROJECT_DIR$/playground/playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/YT-GuiBuilding/Chattimus/server/server.iml" filepath="$PROJECT_DIR$/YT-GuiBuilding/Chattimus/server/server.iml" />
+    </modules>
+  </component>
+</project>
